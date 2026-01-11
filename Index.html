@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luminous Deviation Calc</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<canvas id="particle-canvas"></canvas>
+
+<div class="container">
+    <h2><span class="highlight">LUMINOUS</span> CALC</h2>
+
+    <div class="input-group">
+        <input type="number" id="score" class="input-field" placeholder=" ">
+        <label for="score" class="input-label">点数 (Score)</label>
+        <div class="underline"></div>
+    </div>
+
+    <div class="input-group">
+        <input type="number" id="mean" class="input-field" placeholder=" ">
+        <label for="mean" class="input-label">平均点 (Mean)</label>
+        <div class="underline"></div>
+    </div>
+
+    <div class="input-group">
+        <input type="number" id="stdDev" class="input-field" placeholder=" ">
+        <label for="stdDev" class="input-label">標準偏差 (Std Dev)</label>
+        <div class="underline"></div>
+    </div>
+
+    <div class="input-group">
+        <input type="number" id="deviation" class="input-field" placeholder=" ">
+        <label for="deviation" class="input-label">偏差値 (T-Score)</label>
+        <div class="underline"></div>
+    </div>
+
+    <button class="reset-btn" id="resetBtn">RESET FIELDS</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
